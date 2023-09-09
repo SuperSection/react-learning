@@ -1,10 +1,12 @@
 import Chai from "./Chai";
 
 function App() {
+  const username = "super_section"
   return (
     <>
       <Chai />
-      <h1>Super Section | react with vite</h1>
+       {/* evaluated expression */}
+      <h1>{username} | react with vite</h1>
       <p>time: 01:33 am</p>
     </>
   );
